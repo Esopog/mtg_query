@@ -28,7 +28,5 @@ def main():
     query_builder.search_card_exact("birds of paradise")
 
 
-
-
 if __name__ == "__main__":
     main()
