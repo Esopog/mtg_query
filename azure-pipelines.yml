@@ -9,7 +9,7 @@ trigger:
 pr: # Trigger on pull requests towards branches
   branches:
     include:
-      - main
+      - master
       - ft/*
 
 pool:
