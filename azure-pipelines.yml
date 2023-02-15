@@ -12,9 +12,6 @@ pr: # Trigger on pull requests towards branches
       - master
       - ft/*
 
-pool:
-  vmImage: ubuntu-latest
-
 steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
